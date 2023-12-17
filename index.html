@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="shortcut icon" href="counter.png" type="image/x-icon">
+    <!-- -----------------------------------------CDN FOR TAILWINDCSS------------------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex justify-center">
+
+    <!-- ---------------------------------Bigger Container oF Website---------------------------------- -->
+    <div class="border-[1px] border-black w-3/5 mt-2">
+
+        <p class="text-2xl text-white bg-blue-500 font-semibold text-center p-1">Word and Characters Counter</p>
+
+        <textarea id="textbox" cols="102" rows="10" class="border-[1px] border-black">
+        </textarea>
+
+        <p class="bg-blue-500 text-white text-xl font-semibold text-center p-1">
+            <span id="Word">0</span> Word and
+            <span id="Char">0</span> Characters
+        </p>
+    </div>
+</body>
+<script src="logical_part.js"></script>
+
+</html>
